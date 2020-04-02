@@ -1,0 +1,16 @@
+<div class="container-fluid featcont" id="featcontA">
+    <div class="container">
+        <div class="row">
+            <div class="featblock col-12">
+                <div class="row justify-content-center align-items-stretch align-content-stretch">
+                    {{#each featcontA.blocks}}
+                    <div class="col-12 col-sm-6 col-md-3 justify-content-start align-items-center d-flex flex-column featitem">
+                        <div class="img lazy" data-src="%=static=%img/assets/featcontA/{{this.img}}"></div>
+                        <span>Продано более 10 000 серверов для самых разных отраслей</span>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+{
+  "name": "DELL",
+  "version": "1.0.0",
+  "description": "Landing page DELL",
+  "main": "gulpfile.js",
+  "directories": {},
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "handlebars-helpers": "^0.10.0",
+    "jquery": "^3.4.1",
+    "rucksack-css": "^1.0.2",
+    "sass-bem-mixins": "^1.1.6",
+    "sass-mediaqueries": "^1.6.1",
+    "scut": "^1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

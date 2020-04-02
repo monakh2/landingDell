@@ -1,0 +1,28 @@
+#last {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media only screen and (min-width: 1201px) {
+    #last {
+        background-image: url("%=static=%assets/last/last.png");
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #last {
+        background-image: url("%=static=%assets/last/last-1200.png");
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #last {
+        background-image: url("%=static=%assets/last/last-sm.png");
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #last {
+        background-size: cover;
+    }
+}

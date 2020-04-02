@@ -1,0 +1,56 @@
+#configurator .textblock {
+    padding-bottom: 162px;
+    max-width: 640px;
+    position: relative;
+}
+
+#configurator .textblock p {
+    max-width: 450px;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+#configurator .textblock:after {
+    background-image: url(%=static=%assets/configurator/triangle.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+    width: 70px;
+    height: 61px;
+    position: absolute;
+    bottom: 48px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+
+#configurator .confblock {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    background: #666666;
+    margin-bottom: 30px;
+}
+
+#configurator .confblock legend {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
+
+#configurator .confblock input[type="reset"] {
+    border-color: #F4F6F7;
+    background: transparent;
+    opacity: 1;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#configurator .confblock input[type="reset"]:active, #configurator .confblock input[type="reset"]:focus, #configurator .confblock input[type="reset"]:hover {
+    opacity: 0.6;
+}
+
+#configurator .confblock input[type="reset"], #configurator .confblock [name="configsend"] {
+    margin: 0 18px;
+}

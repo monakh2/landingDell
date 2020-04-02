@@ -1,0 +1,209 @@
+<div class="container-fluid barredbottom" id="configurator">
+
+    <div class="container">
+        <div class="col-12">
+            <div class="row justify-content-center">
+                <div class="textblock">
+                    <h2>Уже в тысячный раз покупаете сервер, и точно знаете, чего хотите?</h2>
+                    <p>Укажите ключевые характеристики оборудования в нашем конфигураторе и уже через 30 минут и у вас будет расчет!
+                        Без лишних слов!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-12">
+            <div class="row justify-content-center">
+                <div class="confblock col-12">
+                    <form class="col-12" name="config">
+                        <fieldset class="col-12">
+                            <div class="row">
+                                <legend>Онлайн-конфигуратор</legend>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6 colbox">
+                                    <div class="inputholder picbox">
+                                        <div class="img" style="background-image: url('%=static=%img/assets/catalog/R540.png')"></div>
+                                    </div>
+                                    <div class="inputholder">
+                                        <div class="caption">Задачи сервера:</div>
+                                    </div>
+
+                                    <div class="inputholder"><input type="checkbox" name="stask[]" id="stask1"><label for="stask1">Терминальный сервер</label></div>
+                                    <div class="inputholder"><input type="checkbox" name="stask[]" id="stask2"><label for="stask2">Сервер 1С</label></div>
+                                    <div class="inputholder"><input type="checkbox" name="stask[]" id="stask3"><label for="stask3">СУБД MS SQL</label></div>
+                                    <div class="inputholder"><input type="checkbox" name="stask[]" id="stask4"><label for="stask4">Файловый сервер</label></div>
+                                    <div class="inputholder"><input type="checkbox" name="stask[]" id="stask5"><label for="stask5">Контроллер домена</label></div>
+                                    <div class="inputholder"><input type="checkbox" name="stask[]" id="stask6"><label for="stask6">Почтовый сервер</label></div>
+                                    <div class="inputholder"><input type="checkbox" name="stask[]" id="stask7"><label for="stask7">Веб сервер</label></div>
+                                    <div class="inputholder"><input type="checkbox" name="stask[]" id="stask8"><label for="stask8">Сервер виртуализации</label></div>
+
+                                </div>
+                                <div class="col-12 col-md-6 colbox">
+                                    <div class="inputholder">
+                                        <select class="grey" name="models">
+                                            <option value="model00" data-img="img/R540.png" disabled selected>Выберите модель</option>
+                                            <option value="R330" data-img="img/R330.png" data-rack="1U">DELL EMC PowerEdge R330</option>
+                                            <option value="R430" data-img="img/R430.png" data-rack="1U">DELL EMC PowerEdge R430</option>
+                                            <option value="R440" data-img="img/R440.png" data-rack="1U">DELL EMC PowerEdge R440</option>
+                                            <option value="R530" data-img="img/R530.png" data-rack="2U">DELL EMC PowerEdge R530</option>
+                                            <option value="R540" data-img="img/R540.png" data-rack="2U">DELL EMC PowerEdge R540</option>
+                                            <option value="R630" data-img="img/R630.png" data-rack="1U">DELL EMC PowerEdge R630</option>
+                                            <option value="R640" data-img="img/R640.png" data-rack="1U">DELL EMC PowerEdge R640</option>
+                                            <option value="R730" data-img="img/R730.png" data-rack="2U">DELL EMC PowerEdge R730</option>
+                                            <option value="R730xd" data-img="img/R730xd.png" data-rack="2U">DELL EMC PowerEdge R730xd</option>
+                                            <option value="R740" data-img="img/R740.png" data-rack="2U">DELL EMC PowerEdge R740</option>
+                                            <option value="R740xd" data-img="img/R740xd.png" data-rack="2U">DELL EMC PowerEdge R740xd</option>
+                                            <option value="T430" data-img="img/T430.png" data-rack="T">DELL EMC PowerEdge T430</option>
+                                            <option value="T440" data-img="img/T440.png" data-rack="T">DELL EMC PowerEdge T440</option>
+                                            <option value="T630" data-img="img/T630.png" data-rack="T">DELL EMC PowerEdge T630</option>
+                                            <option value="T640" data-img="img/T640.png" data-rack="T">DELL EMC PowerEdge T640</option>
+                                        </select>
+                                    </div>
+                                    <div class="inputholder">
+                                        <div class="radiobox col-12">
+                                            <div class="row justify-content-start">
+                                                <div class="col-12 col-md-7 radiolabel">
+                                                    <div class="row justify-content-start">
+                                                        Корпус*
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-5 radioinputs">
+                                                    <div class="row justify-content-between">
+                                                        <input class="square" name="corp" value="1U" type="radio" id="corp1" checked="checked"><label
+                                                        for="corp1">1U<span>rack</span></label>
+                                                        <input class="square" name="corp" value="2U" type="radio" id="corp2"><label for="corp2">2U<span>rack</span></label>
+                                                        <input class="square" name="corp" value="T" type="radio" id="corp4"><label for="corp4">T<span>tower</span></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="inputholder">
+                                        <div class="radiobox col-12">
+                                            <div class="row justify-content-start">
+                                                <div class="col-12 col-md-7 radiolabel">
+                                                    <div class="row justify-content-start">
+                                                        Количество процессоров*
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-5 radioinputs rail">
+                                                    <div class="row justify-content-between">
+                                                        <input class="dot" name="proc" type="radio" id="proc1" checked="checked"><label for="proc1"><span>1</span></label>
+                                                        <input class="dot" name="proc" type="radio" id="proc2"><label for="proc2"><span>2</span></label>
+                                                        <input class="dot" name="proc" type="radio" id="proc4"><label for="proc4"><span>4</span></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="inputholder">
+                                        <div class="col-12">
+                                            <div class="row justify-content-start">
+                                                <div class="col-12 col-md-7 radiolabel">
+                                                    <div class="row justify-content-start">
+                                                        Общий объем памяти*
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-5 selectlist">
+                                                    <div class="row">
+                                                        <select>
+                                                            <option value="263">8 Gb</option>
+                                                            <option value="264">12 Gb</option>
+                                                            <option value="265">18 Gb</option>
+                                                            <option value="266">24 Gb</option>
+                                                            <option value="267">32 Gb</option>
+                                                            <option value="268">48 Gb</option>
+                                                            <option value="269">64 Gb</option>
+                                                            <option value="270">128 Gb</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="inputholder">
+                                        <div class="radiobox col-12">
+                                            <div class="row justify-content-start">
+                                                <div class="col-12 col-md-7 radiolabel">
+                                                    <div class="row justify-content-start">
+                                                        Тип дисков*
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-5 radioinputs rail">
+                                                    <div class="row justify-content-between">
+                                                        <input class="dot" name="dtype" type="radio" id="dtype1" checked="checked"><label for="dtype1"><span>SATA</span></label>
+                                                        <input class="dot" name="dtype" type="radio" id="dtype2"><label for="dtype2"><span>SAS</span></label>
+                                                        <input class="dot" name="dtype" type="radio" id="dtype3"><label for="dtype3"><span>SSD</span></label>
+                                                        <input class="dot" name="dtype" type="radio" id="dtype4"><label for="dtype4"><span>SSD+SAS</span></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="inputholder">
+                                        <div class="col-12">
+                                            <div class="row justify-content-start">
+                                                <div class="col-12 col-md-7 radiolabel">
+                                                    <div class="row justify-content-start">
+                                                        Тип RAID*
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-5 selectlist">
+                                                    <div class="row">
+                                                        <select>
+                                                            <option value="274">RAID 0</option>
+                                                            <option value="275">RAID 1</option>
+                                                            <option value="276">RAID 1+0 или 0+1</option>
+                                                            <option value="277">RAID 5</option>
+                                                            <option value="278">RAID 5+hotspare</option>
+                                                            <option value="279">RAID 6</option>
+                                                            <option value="280">RAID 6+hotspare</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="inputholder">
+                                        <div class="col-12">
+                                            <div class="row justify-content-start">
+                                                <div class="col-12 col-md-7 radiolabel">
+                                                    <div class="row justify-content-start">
+                                                        Требуемый рабочий объем дисков*<br/>
+                                                        (Без учета затрат на RAID (Gb/Tb))
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-4 spinnerbox">
+                                                    <div class="row justify-content-start">
+                                                        <input type="text" class="spinnerfield">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="inputholder"><input type="checkbox" id="opt1"><label for="opt1">Второй блок питания с горячей заменой</label></div>
+                                    <div class="inputholder"><input type="checkbox" id="opt2"><label for="opt2">Расширенное удаленное управление</label></div>
+                                    <div class="inputholder"><input type="checkbox" id="opt3"><label for="opt3">Расширенная гарантия производителя</label></div>
+                                    <div class="inputholder"><input type="checkbox" id="opt4"><label for="opt4">Программное обеспечение (Microsoft \ WMware \ RedHat)</label>
+                                    </div>
+                                    <div class="inputholder"><input type="checkbox" id="opt5"><label for="opt5">Установка ПО \ миграция данных</label></div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <input type="reset" class="btn" value="× Сбросить значения">
+                                <button name="configsend" class="btn blue">Получить счет и КП</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

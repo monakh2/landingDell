@@ -1,0 +1,87 @@
+header .logo {
+    background-image: url(%=static=%assets/header/logo.png);
+    background-size: contain;
+    width: 131px;
+    height: 80px;
+}
+
+@media screen and (max-width: 991px) {
+    header .logo {
+        width: 100px;
+        height: 70px;
+    }
+}
+
+header .contact a {
+    display: block;
+    position: relative;
+    padding-left: 58px;
+}
+
+header .contact a svg {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+header .contact a span {
+    font-size: 13px;
+}
+
+header .topmenu {
+    height: 20px;
+}
+
+header .topmenu .topmenuholder {
+    width: 100%;
+    text-align: center;
+}
+
+header .topmenu .topmenuholder nav a {
+    position: relative;
+    line-height: 20px;
+    height: 20px;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 1199px) {
+    header .topmenu .topmenuholder nav a {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    header .topmenu .topmenuholder nav a {
+        font-size: 12px;
+    }
+}
+
+header .topmenu .topmenuholder nav a:hover {
+    opacity: 1;
+}
+
+header .topmenu .topmenuholder nav a.rose {
+    color: #fff;
+    background-color: #027cb7;
+}
+
+header .topmenu .topmenuholder nav a.rose:after {
+    display: none;
+}
+
+header .topmenu .topmenuholder nav a.rose:hover {
+    opacity: 0.6;
+}
+
+header .topmenu .topmenuholder nav a.rose:hover:after {
+    display: none;
+}
+
+header.fix {
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.14);
+    background-color: #027cb7;
+    width: 100%;
+}

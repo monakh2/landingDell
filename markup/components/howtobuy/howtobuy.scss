@@ -1,0 +1,126 @@
+#howtobuy {
+    padding-bottom: 70px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 1201px) {
+    #howtobuy {
+        background-image: url("%=static=%assets/howtobuy/howtobuy.png");
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #howtobuy {
+        background-image: url("%=static=%assets/howtobuy/howtobuy-1200.png");
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #howtobuy {
+        background-image: url("%=static=%assets/howtobuy/img-name.png");
+    }
+}
+
+#howtobuy .discl {
+    max-width: 970px;
+    margin-bottom: 50px;
+}
+
+#howtobuy .discl * {
+    font-size: 14px;
+    color: #999999;
+}
+
+#howtobuy .textblock {
+    max-width: 670px;
+}
+
+#howtobuy .textblock h2 {
+    margin-top: 84px;
+}
+
+#howtobuy .textblock p {
+    display: block;
+    padding-left: 138px;
+    margin: auto;
+    max-width: 520px;
+    position: relative;
+}
+
+#howtobuy .textblock p:before {
+    content: '!';
+    font-family: "Oswald", sans-serif;
+    position: absolute;
+    font-weight: 700;
+    font-size: 210%;
+    color: #027cb7;
+    width: 52px;
+    height: 52px;
+    left: 10px;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    background: #f7cb36;
+    line-height: 52px;
+    text-align: center;
+}
+
+#howtobuy .textblock ol {
+    margin-top: 55px;
+    margin-bottom: 20px;
+    padding-left: 0;
+    float: left;
+}
+
+#howtobuy .textblock ol li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-height: 88px;
+    border-top: 1px solid #027cb7;
+    float: left;
+    width: 40%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 25px;
+}
+
+#howtobuy .textblock ol li:before {
+    margin-top: -0.3em;
+}
+
+@media screen and (max-width: 767px) {
+    #howtobuy .textblock ol li {
+        width: 100%;
+        min-height: 0;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    #howtobuy .textblock ol li:before {
+        margin-top: 0em;
+    }
+}
+
+#howtobuy .textblock ol li:nth-of-type(2n) {
+    width: 60%;
+}
+
+@media screen and (max-width: 767px) {
+    #howtobuy .textblock ol li:nth-of-type(2n) {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #howtobuy .textblock ol li:nth-of-type(1), #howtobuy .textblock ol li:nth-of-type(2) {
+        border-top: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #howtobuy .textblock ol li:nth-of-type(1) {
+        border-top: none;
+    }
+}
+

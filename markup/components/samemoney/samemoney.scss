@@ -1,0 +1,43 @@
+#samemoney {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 88px;
+    min-height: 440px;
+}
+
+@media only screen and (min-width: 1201px) {
+    #samemoney {
+        background-image: url("%=static=%assets/samemoney/moreformoney.png");
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #samemoney {
+        background-image: url("%=static=%assets/samemoney/moreformoney-1200.png");
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #samemoney {
+        background-image: url("%=static=%assets/samemoney/moreformoney-sm.png");
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    #samemoney {
+        min-height: auto;
+        background-size: cover;
+        padding-bottom: 110px;
+    }
+}
+
+#samemoney .textblock {
+    max-width: 540px;
+}
+
+#samemoney .textblock h2 {
+    text-align: left;
+    max-width: 100%;
+    max-width: 480px;
+    margin-left: 0;
+}

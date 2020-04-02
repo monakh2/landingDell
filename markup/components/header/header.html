@@ -1,0 +1,30 @@
+<header>
+    <div class="container wide">
+        <div class="col-12">
+            <div class="row justify-content-between align-items-center">
+                <div class="logo"></div>
+                <div class="topmenu d-none d-xl-block col">
+                    <div class="container-fluid topmenuholder">
+                        <nav class="row justify-content-around align-items-center">
+                            {{#each header.menu}}
+                            <a class="toankor" href="{{this.href}}">{{this.title}}</a>
+                            {{/each}}
+                        </nav>
+                    </div>
+                </div>
+                <div class="contact">
+                    <a class="tel" href="tel:+7000540011">
+                        <svg>
+                            <use xlink:href="#phone"></use>
+                        </svg>
+                        <span>+48 511 768 718</span></a>
+                    <a class="email" href="mailto:work@dreamhowto.com">
+                        <svg>
+                            <use xlink:href="#letter"></use>
+                        </svg>
+                        <span>work@dreamhowto.com</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

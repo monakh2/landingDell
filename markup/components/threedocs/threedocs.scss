@@ -1,0 +1,58 @@
+
+#threedocs {
+    margin-top: 70px;
+    padding-top: 105px;
+    padding-bottom: 75px;
+}
+
+@media screen and (max-width: 767px) {
+    #threedocs {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+#threedocs > .row {
+    padding-top: 39px;
+    padding-bottom: 47px;
+    padding-bottom: 137px;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 1201px) {
+    #threedocs > .row {
+        background-image: url("%=static=%assets/threedocs/3docs.png");
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #threedocs > .row {
+        background-image: url("%=static=%assets/threedocs/3docs-1200.png");
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #threedocs > .row {
+        background-image: url("%=static=%assets/threedocs/3docs-sm.png");
+    }
+}
+
+#threedocs .container {
+    max-width: 1030px;
+}
+
+#threedocs .textblock {
+    margin-top: 40px;
+    max-width: 500px;
+}
+
+#threedocs .textblock h2 {
+    text-align: left;
+}
+
+#threedocs .textblock .btn {
+    text-transform: uppercase;
+    font-weight: 700;
+    max-width: 220px;
+    min-width: 220px;
+}

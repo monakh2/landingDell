@@ -1,0 +1,33 @@
+#itelonpromo {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 1201px) {
+    #itelonpromo {
+        background-image: url("%=static=%assets/itelonpromo/itelonpromo.png");
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #itelonpromo {
+        background-image: url("%=static=%assets/itelonpromo/itelonpromo-1200.png");
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #itelonpromo {
+        background-image: url("%=static=%assets/itelonpromo/itelonpromo-sm.png");
+    }
+}
+
+#itelonpromo .textblock {
+    max-width: 900px;
+}
+
+#itelonpromo .textblock img {
+    background-color: transparent;
+    display: block;
+    margin-bottom: 40px;
+}

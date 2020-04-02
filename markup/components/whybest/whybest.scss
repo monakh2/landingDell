@@ -1,0 +1,107 @@
+#whybest .textblock h2 {
+    max-width: 450px;
+    position: relative;
+}
+
+#whybest .textblock h2:after, #whybest .textblock h2:before {
+    content: '';
+    width: 191px;
+    height: 57px;
+    position: absolute;
+    background-image: url('%=static=%general/dots.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#whybest .textblock h2:before {
+    left: 100%;
+    top: 0;
+    -webkit-transform: translate(0, -20%);
+    transform: translate(0, -20%);
+}
+
+#whybest .textblock h2:after {
+    right: 100%;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+@media screen and (min-width: 1024px) {
+    #whybest .listblock:after {
+        z-index: 0;
+        content: '';
+        position: absolute;
+        max-height: 100%;
+        width: 1114px;
+        height: 1137px;
+        background-image: url('%=static=%assets/whybest/whybest.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        top: 0;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
+}
+
+#whybest .listblock .listcol {
+    z-index: 1;
+    position: relative;
+    max-width: 315px;
+}
+
+#whybest .listblock .listcol dt {
+    text-align: center;
+    color: #f7cb36;
+    font-size: 20px;
+    margin-bottom: 0.5em;
+}
+
+#whybest .listblock .listcol dd {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    #whybest .listblock .listcol:first-of-type dt {
+        text-align: left;
+    }
+    #whybest .listblock .listcol:first-of-type dt:first-of-type, #whybest .listblock .listcol:first-of-type dt:last-of-type {
+        -webkit-transform: translate(30px, 0);
+        transform: translate(30px, 0);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #whybest .listblock .listcol:first-of-type dd {
+        text-align: left;
+    }
+    #whybest .listblock .listcol:first-of-type dd:first-of-type, #whybest .listblock .listcol:first-of-type dd:last-of-type {
+        -webkit-transform: translate(30px, 0);
+        transform: translate(30px, 0);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #whybest .listblock .listcol:last-of-type dt {
+        text-align: right;
+    }
+    #whybest .listblock .listcol:last-of-type dt:first-of-type, #whybest .listblock .listcol:last-of-type dt:last-of-type {
+        -webkit-transform: translate(-30px, 0);
+        transform: translate(-30px, 0);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #whybest .listblock .listcol:last-of-type dd {
+        text-align: right;
+    }
+    #whybest .listblock .listcol:last-of-type dd:first-of-type, #whybest .listblock .listcol:last-of-type dd:last-of-type {
+        -webkit-transform: translate(-30px, 0);
+        transform: translate(-30px, 0);
+    }
+}
+
